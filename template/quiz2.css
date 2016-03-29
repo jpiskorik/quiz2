@@ -1,34 +1,63 @@
-html body {
+
+html body 
+{
+	text-align: center;
 	font-family: 'Helvetica', Arial, sans-serif;
-	color: #111
+	color: #111;
 	background: #E7E7E7;
 }
 
-a {
+a 
+{
 	color: #0078A0;
 }
 
-.content {
-	text-align: center
-	padding: 0 15% 20px;
+.content 
+{
+	text-align: center;
+	padding: 0px 15px 20px;
 }
 
-.content h1 {
+.content h1 
+{
+	color:blue;
 	text-transform: uppercase;
 	font-weight: bold;
 	margin: 20px 0;
+}
 
-
-content form {
+.content form 
+{
 	padding: 10px;
 	width: 300px;
 	margin: 0 auto;
 }
 
-.content form input {
+.content form input 
+{
 	width: 100%;
-	// border: 2px solid #107394;
+	border: 2px solid #107394;
 	color: #107394;
 	background: transparent;
 	magrin-bottom: 15px;
+}
+
+.content dataItems
+{
+	background-color: #66ffff;
+}
+
+.content .mouse-over
+{
+	color: blue;
+}
+
+.content .timeout
+{
+	display: none;
+}
+
+.content .data-list
+{
+	text-align: center;
 }

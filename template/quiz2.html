@@ -4,6 +4,7 @@
 		<meta charset="UTF-8"
 		<title>Quiz 2</title>
 	</head>
+		<link rel="stylesheet" href="quiz2.css">
 	<body>
 		
 		<div class="content">
@@ -13,25 +14,33 @@
 				<div class="click">
 					<span>click event</span>
 				</div>
+				
 				<div class="mouse-over">
 					<span>mouse over event</span>
 					<p>Who's the richest person you know? (mouse over to find out)</p>
 				</div>
+				
 				<div>
 					<span>submit event</span>
 					<!-- The form not having an action or method is not a bug in this case -->
 					<form>
 						<label for="form">AJAX, yo!</label>
-						<input type="text" id="form" name="form" placeholder="Enter Some Text" />
-						<input value="SUBMIT">
-					</form>
+						<input type="text" id="form" name="form" placeholder="Enter Some Text">
+						<input class="submit" type="submit" value="SUBMIT">
+					</form>	
 				</div>
-				div class="timeout">
+				<div class="timeout">
 					<span>timeout function</span>
 				</div>
-			</div>
-		
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js">
+				<div class= "title">
+					<input id = "gettitle" type="submit" value="Get Title">
+				</div>
+				<div class="dataItems">
+					<ul class="data-list"></ul>
+				</div>
+			</div>	
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="quiz2.js"></script>
 	</body>
 </html>
